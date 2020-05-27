@@ -82,13 +82,13 @@ ofstream output;
 
 int main()
 {
-	cout << "\n VARIABLE SIZE PARTITIONING SIMULATOR \n\n";
+	cout << "\n Sumulador de Partição de memória \n\n";
 
 
 	cout << "\n 1-> First-Fit Algorithm ";
 	cout << "\n 2-> Best-Fit Algorithm ";
 	cout << "\n 3-> Next-Fit Algorithm ";
-	cout << "\n\tEnter Your Choice==>";
+	cout << "\n\tEscolha o médtodo desejado==>";
 	cin >> choice;
 
 	switch (choice)
@@ -118,7 +118,7 @@ int main()
 		break;
 	}
 	default:
-		cout << "\n WRONG CHOICE \n";
+		cout << "\n Escolha incorreta \n";
 	}
 
 	if (choice != 1 && choice != 2 && choice != 3)
